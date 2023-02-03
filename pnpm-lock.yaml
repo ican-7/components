@@ -15,7 +15,7 @@ specifiers:
   lint-staged: ^10.5.0
   live-server: ^1.2.1
   lodash-es: ^4.17.21
-  luckly-cli: 1.4.0
+  luckly-cli: 1.6.0
   prettier: ^2.3.2
   simple-git-hooks: ^2.8.0
   stylelint: ^13.13.1
@@ -40,7 +40,7 @@ devDependencies:
   lint-staged: 10.5.4
   live-server: 1.2.2
   lodash-es: 4.17.21
-  luckly-cli: 1.4.0_b4g5pyzobkb4yrq4kgq6lnqx3y
+  luckly-cli: 1.6.0_b4g5pyzobkb4yrq4kgq6lnqx3y
   prettier: 2.8.3
   simple-git-hooks: 2.8.1
   stylelint: 13.13.1
@@ -6484,8 +6484,8 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /luckly-cli/1.4.0_b4g5pyzobkb4yrq4kgq6lnqx3y:
-    resolution: {integrity: sha512-SmMh3ixpJGTKHySLgkOdhz2BmzaLapGnIAV5NKHbJQA2nDJ0TOnWKEtKmNKQHRdqrqkpW+sbKZ2efZ7aJNMjXw==}
+  /luckly-cli/1.6.0_b4g5pyzobkb4yrq4kgq6lnqx3y:
+    resolution: {integrity: sha512-4ExANj0QNxkXf6q+4Bogwnl/4GKC0tWOHFjaZB5NuQmmEYept5kAfGJiElf7DQ5U+Vd7ImdLg28J81/0KpCtbw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -9252,6 +9252,7 @@ packages:
 
   /w3c-hr-time/1.0.2:
     resolution: {integrity: sha512-z8P5DvDNjKDoFIHK7q8r8lackT6l+jo/Ye3HOle7l9nICP9lf1Ci25fy9vHd0JOWewkIFzXIEig3TdKT7JQ5fQ==}
+    deprecated: Use your platform's native performance.now() and performance.timeOrigin.
     dependencies:
       browser-process-hrtime: 1.0.0
     dev: true

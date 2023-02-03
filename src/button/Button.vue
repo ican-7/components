@@ -3,6 +3,7 @@
     <slot />
   </button>
 </template>
+
 <script setup lang="ts">
 import { computed } from 'vue'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -24,6 +25,8 @@ const btnType = computed(() => {
   return `btn btn-${props.type}`
 })
 </script>
+
+
 <script lang="ts">
 export default {
   name: 'LuckyButton',

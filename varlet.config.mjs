@@ -44,6 +44,13 @@ export default {
         doc: 'message',
         type: 2,
       },
+      {
+        text: {
+          'zh-CN': 'Link链接',
+        },
+        doc: 'link',
+        type: 2,
+      },
     ],
   }
 }
